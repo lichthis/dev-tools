@@ -1,0 +1,63 @@
+app:
+  title: "Developer Tools"
+  description: "A collection of useful developer tools"
+
+nav:
+  url_encoder: "URL Encoder"
+  json_formatter: "JSON Formatter"
+  base64: "Base64 Encoder"
+  cron: "Cron Parser"
+
+tools:
+  common:
+    copy: "Copy"
+    format: "Format"
+    minify: "Minify"
+    input_placeholder: "Enter your input here..."
+    output_label: "Output"
+
+  json:
+    title: "JSON Formatter"
+    format_standard: "Standard Format (\"key\": \"value\")"
+    format_single_quote: "Single Quote ('key': 'value')"
+    format_no_quote: "No Quote (key: value)"
+    format_yaml: "YAML Format"
+    format: "Format"
+    minify: "Minify"
+    invalid_json: "Invalid JSON"
+
+  url:
+    title: "URL Encoder/Decoder"
+    encode: "Encode"
+    decode: "Decode"
+    invalid_url: "Invalid URL"
+
+  base64:
+    title: "Base64 Encoder/Decoder"
+    encode: "Encode"
+    decode: "Decode"
+    invalid_base64: "Invalid Base64"
+
+  cron:
+    title: "Cron Expression Parser"
+    input_placeholder: "Enter cron expression (e.g. * * * * *)"
+    parse: "Parse"
+    next_runs: "Next Execution Times"
+    include_seconds: "Include Seconds"
+    description: "Expression Description"
+    output_format_default: "Standard Format (2024-01-01 12:00:00)"
+    output_format_iso8601: "ISO8601 (2024-01-01T12:00:00+08:00)"
+    output_format_unix: "Unix Timestamp (1704085200)"
+    invalid_cron: "Invalid cron expression"
+    invalid_expression: "Invalid cron expression"
+    field:
+      second: "Second"
+      minute: "Minute"
+      hour: "Hour"
+      day: "Day"
+      month: "Month"
+      week: "Week"
+      every: "Every"
+      any: "Any"
+      specific: "Specific values"
+      from: "From"

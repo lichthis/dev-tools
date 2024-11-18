@@ -1,0 +1,63 @@
+app:
+  title: "开发者工具"
+  description: "一套实用的开发者工具集"
+
+nav:
+  url_encoder: "URL 编码"
+  json_formatter: "JSON 格式化"
+  base64: "Base64 编码"
+  cron: "Cron 解析器"
+
+tools:
+  common:
+    copy: "复制"
+    format: "格式化"
+    minify: "压缩"
+    input_placeholder: "在此输入..."
+    output_label: "输出"
+
+  json:
+    title: "JSON 格式化"
+    format_standard: "标准格式 (\"key\": \"value\")"
+    format_single_quote: "单引号 ('key': 'value')"
+    format_no_quote: "无引号 (key: value)"
+    format_yaml: "YAML 格式"
+    format: "格式化"
+    minify: "压缩"
+    invalid_json: "无效的 JSON"
+
+  url:
+    title: "URL 编码/解码"
+    encode: "编码"
+    decode: "解码"
+    invalid_url: "无效的 URL"
+
+  base64:
+    title: "Base64 编码/解码"
+    encode: "编码"
+    decode: "解码"
+    invalid_base64: "无效的 Base64"
+
+  cron:
+    title: "Cron 表达式解析器"
+    input_placeholder: "输入 cron 表达式 (例如: * * * * *)"
+    parse: "解析"
+    next_runs: "接下来的执行时间"
+    include_seconds: "包含秒"
+    description: "表达式描述"
+    output_format_default: "标准格式 (2024-01-01 12:00:00)"
+    output_format_iso8601: "ISO8601 (2024-01-01T12:00:00+08:00)"
+    output_format_unix: "Unix 时间戳 (1704085200)"
+    invalid_cron: "无效的 cron 表达式"
+    invalid_expression: "无效的 cron 表达式"
+    field:
+      second: "秒"
+      minute: "分"
+      hour: "时"
+      day: "日"
+      month: "月"
+      week: "周"
+      every: "每"
+      any: "任意"
+      specific: "指定值"
+      from: "从"
